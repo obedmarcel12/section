@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px black; 
+    position: sticky;
+    color: white;
+    background-color: rgb(241, 16, 16)
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+    width: 25px;
+    margin-right:  25px;
+    height: 25px;
+}
+.nav-right .user-icon{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0;
+    height: 30px;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .youtube-icon{
+    width: 130px;
+}
+.nav-middle .mic-icon{
+    width: 60px;
+    height: 60px;
+}
+.nav-middle .search-box{ 
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+/*----------------sidebar-------------*/
+.sidebar{
+    background: black;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a  :first-child{
+    color: red;
+}
+.sidebar hr{
+    border: 0;
+    height: 0px;
+    background: #ccc;
+    width: 85%;
+    color: red;
+    background-color: red;
+}
+.v1{
+    border-right: 4px solid rgb(238, 9, 9);
+    height: 330px;
+    position: relative;
+    bottom: 350px;
+}
+.images{
+    position: relative;
+    left: 200px;
+    top: -1px;
+}
+.float{
+    position: sticky;
+    gap: 1rem;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+.images hr{
+    color: black;
+    border: 2px solid rgb(241, 16, 16);
+}
+.shortcut-links p{
+    color: red;
+    font-size: 20px;
+}
+

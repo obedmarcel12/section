@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background-image: url(./nature.jpg);
+}
+
+.hold {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6vh;
+    justify-content: center;
+
+}
+
+.hold p {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: large;
+    border: 1px solid white;
+}
